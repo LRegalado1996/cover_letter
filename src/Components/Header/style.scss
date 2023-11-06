@@ -15,12 +15,14 @@ header {
     .logo {
       h1 {
         font-size: 25px;
+        cursor: pointer;
       }
     }
 
     .menu {
       img {
         width: 25px;
+        cursor: pointer;
       }
 
       .menu-toggle {
@@ -35,6 +37,7 @@ header {
         z-index: 1;
         background-color: $white;
         overflow: hidden;
+        
 
         li {
           width: 90%;
