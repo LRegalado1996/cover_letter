@@ -1,0 +1,63 @@
+@import "../../Assets/variables";
+
+header {
+  background-color: $firstColor;
+  color: $white;
+
+  nav {
+    width: 90%;
+    margin: 0px auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .logo {
+      h1 {
+        font-size: 25px;
+        cursor: pointer;
+      }
+    }
+
+    .menu {
+      img {
+        width: 25px;
+        cursor: pointer;
+      }
+
+      .menu-toggle {
+        cursor: pointer;
+        height: 0px;
+        transition: 0.5s;
+        position: absolute;
+        top: 60px;
+        right: 0;
+        width: 100%;
+        text-align: right;
+        z-index: 1;
+        background-color: $white;
+        overflow: hidden;
+        
+
+        li {
+          width: 90%;
+          margin: 10px auto;
+          color: $firstColor;
+
+          &.selected {
+            font-weight: bold;
+          }
+        }
+
+        &.open {
+          height: 100px;
+        }
+      }
+    }
+
+    a:-webkit-any-link {
+      color: $white;
+      text-decoration: none;
+    }
+  }
+}

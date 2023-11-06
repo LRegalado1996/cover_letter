@@ -1,0 +1,22 @@
+@import "./Assets/variables";
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: $defaultTextSize;
+  font-family: sans-serif;
+  letter-spacing: 1px;
+}
+
+body {
+  background-color: $backgroundColor;
+
+  .container {
+    width: calc(90% - 40px);
+    margin: 10px auto;
+    padding: 20px;
+    background-color: $white;
+    border-radius: 2%;
+  }
+}
