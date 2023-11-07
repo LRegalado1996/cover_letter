@@ -1,0 +1,30 @@
+@import "../../Assets/variables";
+
+.BodyImage {
+  width: 100%;
+  min-height: 70vh;
+  overflow: hidden;
+
+  .containerButtons {
+    width: 90%;
+    margin: 0px auto;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    button {
+      background-color: $white;
+      color: $firstColor;
+      border: 1px solid $firstColor;
+      padding: 10px 20px;
+      box-shadow: none;
+      transition: 0.5s;
+
+      &:hover {
+        background-color: $firstColor;
+        color: $white;
+      }
+    }
+  }
+}
