@@ -1,7 +1,14 @@
 @import "../../Assets/variables";
 
 .ReactKonvaPage {
-  h1 {
-    font-size: $defaultTextSize;
+  .containerIntroduction {
+    h1 {
+      font-size: $titleTextSize;
+      color: $firstColor;
+      margin-bottom: 20px;
+    }
+    p {
+      margin-bottom: 10px;
+    }
   }
 }
