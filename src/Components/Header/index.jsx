@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import "./style.scss";
-import menuImg from "../../Assets/icons/menu.png";
+import menuImg from "../../assets/icons/menu.png";
 
 const defaultMenuOptions = [
   {
